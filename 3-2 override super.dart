@@ -1,4 +1,4 @@
-// import 'package:intl/intl.dart';
+import 'package:intl/intl.dart';
 
 String toLocaleString(double number) {
   String formatted = NumberFormat.decimalPattern('ko_KR').format(number);
